@@ -1,0 +1,28 @@
+---
+title: "Dani - My Role"
+layout: post
+date: 2017-1-02 22:44
+headerImage: false
+tag:
+- unreal
+- programming
+- virtual reality
+category: blog
+author: dani
+description: Dani's contributions to the project
+star: true
+---
+
+## Contributions Made
+- I was resposible for the 360 degree controlscheme. This included doing the research on how to feasibly map the physical umbrella's movement to match the in-game version as well as implementing the method into the engine and game.
+  - I decided to  emulate the GoogleVR's daydream motion controller on an Android 6.x phone (to increase availability) to get the gyroscope and accelerometer data into the game. The reason I did not just get the phones original gyroscope and accelerometer data was the lack of support in the Unreal Engine. There was no easy way of accessing this data in a blueprint project. Thus the workaround with the motion controller (Unreal had a built-in plugin for aquiring the required data).
+- I created the VR landscape used in-game as well as the procedurally generated foliage. This was done through an experimental feature within Unreal Engine (procedural foliage system).
+- I worked on some of the particle systems used in game. Creating realistic looking (and flashy) particle systems were integral in making the game feel more "alive" and fun to play.
+- I also worked on the overall level-design to create a logical game experience with a clear start and end goal.
+
+## Problems Faced
+### Controls
+Implementing the controlscheme presented a lot of different problems since I was limited by what the Unreal Engine's blueprint system had to offer. The biggest issue was the Oculus headset altering the orientation data received from the motion controller. All the orientation angles were doubled with the headset connected. The workaround to this was to split the vectors used into 3 different parts (up-, forward- and rightvector) and using ranges to limit the effects of the doubling. The second problem faced was that the angles were calculated from 0-180 in both directions, instead of 0-360. This made it impossible to know which direction you were facing without implementing a second check. The workaround to this problem was to multiply a sign by the accelerometer data in the desired plane, to either receive a plus or minus sign. basically emulating a -180 to 180 range. The last problem was that the controls were very jumpy and too responsive. To smooth out the controls the accelerometer data was once again used to get the tilt of the phone. The tilt was multiplied by a constant speed so that small movements of the umbrella resulted in slow movement speed and large movements resulted in high movement speed.
+
+## Overall Learning Experience
+It was a great learning experience since I have not worked in Unreal Engine before nor have I made a VR game before. It was a learning experience not only in learning new software but also how to collaborate with teammates working on different parts of the game to create a seamless endproduct.

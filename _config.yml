@@ -53,33 +53,46 @@ disqus:
 # email: hey@raghunayyar.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    raghu:
+        name: Raghu Nayyar
+        bio: The one who is probably late, again
         external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
+        picture: assets/images/raghu.jpg
+    nilay:
+        name: Nilay Ates
+        bio: The one who loves cats
         external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/nilay.jpg
+    maiky:
+        name: Lê Mai-Khanh
+        bio: The one who is the silent guardian
+        external-image: false
+        picture: assets/images/maiky.jpg
+    dani:
+        name: Dani Mataruga
+        bio: The one who likes his coffee with 50% milk
+        external-image: false
+        picture: assets/images/dani.jpg
+    per:
+        name: Per Jaakonantti
+        bio: The one who likes to pose for the photos
+        external-image: false
+        picture: assets/images/per.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+# about: true
 blog: true
 
 # do you want to show the "read time" of the posts?

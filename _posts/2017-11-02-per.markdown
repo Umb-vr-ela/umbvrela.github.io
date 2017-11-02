@@ -1,0 +1,32 @@
+---
+title: "Per - My Role"
+layout: post
+date: 2017-11-01 22:10
+tag:
+- maya
+- physical interactions
+- 3D Modelling
+headerImage: false
+description: "Per talks about his role in the project"
+category: blog
+author: per
+externalLink: false
+star: true
+---
+
+- Modeling Umbrella (All versions of it)
+- Animating cloth on Umbrella (using nCloth and transform constraint)
+- Trying to import animations to Unreal (not successful)
+- Editing first wind sound
+- ForskarFredag:
+   - Packing, Logistics, Setting up & Checklist
+   - Being there all day
+   - Taking and summarising notes
+   - Printing poster
+- MissionIX:
+   - Packing, Logistics, Setting up & Checklist
+   - Being there whole event and taking some notes
+   - Printing poster
+- Modeling objects in game (Mines, Ring, Triangle, Plus sign, Air Baloons, Landing platform)
+- Finding ways to make gravity seem more natural (not used)
+- Some presentation preparing and presenting one version of the demo
