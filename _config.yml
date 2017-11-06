@@ -1,5 +1,5 @@
 # main text of home
-name: UMBVRELA
+name: UMBVRELLA
 bio: A virtual reality game to collect coins, collect boosters and avoid bombs to survive. All this, during a skyfall.
 
 # twitter summary info
@@ -96,13 +96,13 @@ width: large
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+# read-time: true
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
 # related posts inside a post?
-related: true
+# related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]

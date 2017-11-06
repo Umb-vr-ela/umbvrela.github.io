@@ -1,0 +1,35 @@
+---
+title: "Nilay - My Role"
+layout: post
+date: 2017-11-05 22:10
+tag:
+- volumentric modeling
+- gravity
+- gameplay
+headerImage: false
+description: "Nilay talks about her role in the project"
+category: blog
+author: nilay
+star: true
+---
+
+
+### Hello-World Demo
+- Volumetric clouds (Not used in the latest version due to fps issues)
+- Falling movement
+- Movement of the umbrella with the keyboard
+
+### ForskarFredag
+- Material for the first version of the landscape; Material: grass and dirt textures for lower parts of the landscape blended according to slope and snow texture for on higher parts
+- Hiding the edges of the landscape by making changes to skybox and adding fog
+- Added few more different volumetric clouds (Not used in the latest version due to fps issues)
+- Implementation of item pickup, increasing the points the user has and showing it on HUD
+- Random pickup item creation
+- Added the starting room (removed in the last version)
+- Mapping the phone rotation to ingame umbrella rotation (Umbrella was really shaky, removed in the latest version)
+
+### Mission IX
+- Implementation of the bombs, reducing the health of the player when hit and random movement for the bombs
+- Partly implementation of the rings; (just the check if player went through the ring
+- Implementation of switches between different levels. Eg. loading next level if the target is hit or loading game over level if not.
+- Helped with the implementation of the controls; mapping the phone to ingame character movement

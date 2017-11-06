@@ -1,0 +1,20 @@
+---
+title: "Raghu - My Role"
+layout: post
+date: 2017-11-05 22:10
+tag:
+- interface
+- sounds
+- everything else
+headerImage: false
+description: "Raghu talks about her role in the project"
+category: blog
+author: raghu
+star: true
+---
+
+- Found and incorporate sounds for almost everything during the gameplay.
+- Website and poster for the team
+- Landscape for Forskarfreidag
+- Art direction and theme of the overall game.
+- Different screens like start screen, health, game over etc. which were implemented by Maiky in Unreal

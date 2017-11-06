@@ -1,0 +1,20 @@
+---
+title: "Maiky - My Role"
+layout: post
+date: 2017-11-05 22:10
+tag:
+- particle system
+- interface
+- volumetric modeling
+headerImage: false
+description: "Maiky talks about her role in the project"
+category: blog
+author: maiky
+star: true
+---
+
+- Creating different clouds using particle systems
+- Spawning the clouds in game
+- Implementing the general interface (points and health)
+- Implementing the different menus (start game, in-between level, restart/end game)
+- Creating a leaderboard (not fully implemented in final version)

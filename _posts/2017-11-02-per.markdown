@@ -10,7 +10,6 @@ headerImage: false
 description: "Per talks about his role in the project"
 category: blog
 author: per
-externalLink: false
 star: true
 ---
 
