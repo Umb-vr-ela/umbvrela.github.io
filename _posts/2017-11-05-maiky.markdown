@@ -1,5 +1,5 @@
 ---
-title: "Maiky - My Role"
+title: "Mai-Khanh - My Role"
 layout: post
 date: 2017-11-05 22:10
 tag:
@@ -7,14 +7,17 @@ tag:
 - interface
 - volumetric modeling
 headerImage: false
-description: "Maiky talks about her role in the project"
+description: "Mai-Khanh talks about her role in the project"
 category: blog
 author: maiky
 star: true
 ---
 
+### ForskarFredag
 - Creating different clouds using particle systems
 - Spawning the clouds in game
+
+### Mission IX
 - Implementing the general interface (points and health)
-- Implementing the different menus (start game, in-between level, restart/end game)
+- Implementing the different menus (start game, between levels, restart/end game)
 - Creating a leaderboard (not fully implemented in final version)
