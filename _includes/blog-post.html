@@ -1,3 +1,4 @@
+{% if post.project == 1 %}
 <div class="item {% if post.star %}star{% endif %}" style="width:20%; float: left;">
     <img src="{{ site.url}}/assets/images/authors/{{post.author}}.png" width="100" height="100" />
     <h3 class="title" style="font-weight: 300;">{{ post.title }}</h3>
@@ -6,3 +7,15 @@
         Read More
     </a>
 </div>
+{% endif %}
+
+{% if post.project == 2 %}
+<div class="item {% if post.star %}star{% endif %}" style="width:15%; float: left;">
+    <img src="{{ site.url}}/assets/images/authors/{{post.author}}.png" width="100" height="100" />
+    <h3 class="title" style="font-weight: 300;">{{ post.title }}</h3>
+    <p style="font-weight: 700; margin-bottom: 20px; text-transform:capitalize;">{{ post.tag }}</p>
+    <a class="button" style="background: black; padding: 10px 20px; text-decoration: none; color: white; border-radius: 2px;" href="{{ site.url }}{{ post.url }}">
+        Read More
+    </a>
+</div>
+{% endif %}
