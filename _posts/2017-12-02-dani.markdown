@@ -1,0 +1,20 @@
+---
+title: "Dani Mataruga"
+layout: post
+date: 2017-12-02 22:44
+headerImage: false
+tag: code
+category: blog
+author: dani
+description: Dani's contributions to the project
+star: true
+project: 2
+---
+
+## Unity3D
+My work inside Unity consisted of creating the main map layout and lighting. This included not only planning and making the actual map (with detailing) but also making sure there were no jagged or flimmering edges by aligning all assets to the correct plane. The lighting was done through something called "light baking" which basically means the light was baked into the assets texture, to reduce the load and removing the need for dynamic lighting. However, to increase the look and feel of the final game dynamic lighting was detail-placed on the map in the form of braziers, torches etc.
+
+I was also resposible for creating the AI behaviour of enemy units as well as the accompanying navigation mesh for their agents. This was done through built-in Unity functions but the customized script (C#) attached to the agents detailing their behaviour when interacting with the player characteres was in part written by me. This behaviour included working with the animation of the agents (enemy AI).
+
+## Microsoft Pixelsense 2.0
+I worked on the Microsoft Pixelsense to make the game recognize the fiducials we used to spawn units inside the game. The fiducials were placed on top of the surface and decoded by the TUIO protocol. In Unity an accompying script (C#) built upon Microsoft Surface and TouchScript API's was written to control and read the behaviour of the fiducials. This part was fairly difficult since Microsoft has removed any and all documentation pertaining to the Surface API. The TouchScirpt we used had also deprecated a lot of vital methods, which required extensive work arounds. 

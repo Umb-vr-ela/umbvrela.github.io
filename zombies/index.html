@@ -2,3 +2,51 @@
 layout: page
 title: Home
 ---
+
+<section style="text-align: center;">
+  <h1 style="margin-bottom: 50px;">
+    Iterations
+  </h1>
+
+  <div style="margin: 0 auto;">
+    <img src="{{site.url}}/assets/images/people/paperprototype.jpg" width="700" style="margin-bottom: 10px;" />
+    <p style="margin-bottom: 60px;">Since the Gameplay was difficult to understand, we drew it first on paper.</p>
+  </div>
+
+  <div style="margin: 0 auto;">
+    <img src="{{site.url}}/assets/images/people/cop.jpg" width="500" style="margin-bottom: 10px;" />
+    <p style="margin-bottom: 60px;">Early first person perspective of the player, the controls remained the same.</p>
+  </div>
+
+  <div style="margin: 0 auto;">
+    <img src="{{site.url}}/assets/images/people/earlyzombies.png" width="300" style="margin-bottom: 10px;" />
+    <p style="margin-bottom: 60px;">Early iteration of the zombies generated on the touchboard</p>
+  </div>
+
+</section>
+
+<section style="text-align: center;">
+  <h1 style="margin-bottom: 50px;">
+    Open house
+  </h1>
+
+  <div>
+    <div style="margin: 0 auto;">
+      <img src="{{site.url}}/assets/images/people/openhouse.jpg" width="1000" />
+      <p style="margin-bottom: 60px;">During Open house we presented both No Country for Zombies and Umb-vr-ella, NCFZ was instant hit amongst the kids.</p>
+    </div>
+  </div>
+
+</section>
+<section class="list" style="text-align: center; width: 100%; display: block; margin: 100px 0; min-height: 300px;">
+  <h1 style="margin-bottom: 50px;">
+    Team
+  </h1>
+		{% for post in site.posts %}
+			{% if post.project == 2 %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+</section>
