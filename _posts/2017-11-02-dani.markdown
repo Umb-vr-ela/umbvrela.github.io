@@ -1,12 +1,9 @@
 ---
-title: "Dani - My Role"
+title: "Dani Mataruga"
 layout: post
 date: 2017-11-01 22:44
 headerImage: false
-tag:
-- unreal
-- programming
-- virtual reality
+tag: code
 category: blog
 author: dani
 description: Dani's contributions to the project

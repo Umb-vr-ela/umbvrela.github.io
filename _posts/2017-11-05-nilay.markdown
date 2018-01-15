@@ -1,11 +1,8 @@
 ---
-title: "Nilay - My Role"
+title: "Nilay Ateş"
 layout: post
 date: 2017-11-05 22:10
-tag:
-- volumentric modeling
-- gravity
-- gameplay
+tag: gameplay
 headerImage: false
 description: "Nilay talks about her role in the project"
 category: blog

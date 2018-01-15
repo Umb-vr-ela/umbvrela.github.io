@@ -1,11 +1,8 @@
 ---
-title: "Per - My Role"
+title: "Per Jaakonantti"
 layout: post
 date: 2017-11-01 22:10
-tag:
-- maya
-- physical interactions
-- 3D Modelling
+tag: modelling
 headerImage: false
 description: "Per talks about his role in the project"
 category: blog

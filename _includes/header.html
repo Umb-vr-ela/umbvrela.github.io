@@ -5,7 +5,7 @@
 %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
+    <header class="header-home {% if site.animation %}animated{% endif %}" style="margin-top: 100px; margin-bottom: 100px;">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
@@ -22,5 +22,3 @@
         {% include social-links.html %}
     </header>
 {% endif %}
-
-{% include nav.html %}

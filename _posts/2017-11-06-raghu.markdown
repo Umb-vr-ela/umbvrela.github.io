@@ -1,11 +1,8 @@
 ---
-title: "Raghu - My Role"
+title: "Raghu Nayyar"
 layout: post
 date: 2017-11-05 22:10
-tag:
-- interface
-- sounds
-- everything else
+tag: UX
 headerImage: false
 description: "Raghu talks about her role in the project"
 category: blog

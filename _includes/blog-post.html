@@ -1,6 +1,8 @@
-<div class="item {% if post.star %}star{% endif %}">
-    <a class="url" href="{{ site.url }}{{ post.url }}">
-        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-        <h3 class="title">{{ post.title }}</h3>
+<div class="item {% if post.star %}star{% endif %}" style="width:20%; float: left;">
+    <img src="{{ site.url}}/assets/images/authors/{{post.author}}.png" width="100" height="100" />
+    <h3 class="title" style="font-weight: 300;">{{ post.title }}</h3>
+    <p style="font-weight: 700; margin-bottom: 20px; text-transform:capitalize;">{{ post.tag }}</p>
+    <a class="button" style="background: black; padding: 10px 20px; text-decoration: none; color: white; border-radius: 2px;" href="{{ site.url }}{{ post.url }}">
+        Read More
     </a>
 </div>

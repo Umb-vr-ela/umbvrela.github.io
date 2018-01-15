@@ -1,11 +1,8 @@
 ---
-title: "Mai-Khanh - My Role"
+title: "Mai-Khanh"
 layout: post
 date: 2017-11-05 22:10
-tag:
-- particle system
-- interface
-- volumetric modeling
+tag: modelling
 headerImage: false
 description: "Mai-Khanh talks about her role in the project"
 category: blog

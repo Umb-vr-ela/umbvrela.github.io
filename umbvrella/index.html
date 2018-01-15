@@ -1,0 +1,47 @@
+---
+layout: page
+title: Home
+---
+
+<section style="text-align: center;">
+  <h1 style="margin-bottom: 50px;">
+    Technology
+  </h1>
+
+  <div style="margin: 0 auto;">
+    <img src="/assets/images/people/technology.png" width="500" style="margin-bottom: 50px;" />
+  </div>
+
+</section>
+
+<section style="text-align: center;">
+  <h1 style="margin-bottom: 50px;">
+    Forskarfreidag and Mission IX
+  </h1>
+
+  <div>
+    <div style="margin: 0 auto;">
+      <img src="/assets/images/people/forskar.jpg" width="500" />
+      <p style="margin-bottom: 60px;">ForskarFreidag gave us inital feedback on general speed of the game, the environment, response time and gamification.</p>
+    </div>
+
+    <div style="margin: 0 auto;">
+      <img src="/assets/images/people/missionix.jpg" width="500" />
+      <p style="margin-bottom: 60px;">With all the suggestions we got in ForskarFreidag, the game with the new levels added was well received at Mission IX.</p>
+
+    </div>
+  </div>
+
+</section>
+<section class="list" style="text-align: center; width: 100%; display: block; margin: 100px 0; min-height: 300px;">
+  <h1 style="margin-bottom: 50px;">
+    Team
+  </h1>
+		{% for post in site.posts %}
+			{% if post.project == 1 %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+</section>
