@@ -11,6 +11,7 @@ description: "Mai-Khanh talks about her role in the project"
 category: blog
 author: maiky
 star: true
+project: 1
 ---
 
 ### ForskarFredag

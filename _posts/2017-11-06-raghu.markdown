@@ -11,6 +11,7 @@ description: "Raghu talks about her role in the project"
 category: blog
 author: raghu
 star: true
+project: 1
 ---
 
 - Found and incorporate sounds for almost everything during the gameplay.

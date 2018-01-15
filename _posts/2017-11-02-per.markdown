@@ -11,6 +11,7 @@ description: "Per talks about his role in the project"
 category: blog
 author: per
 star: true
+project: 1
 ---
 
 - Modeling Umbrella (All versions of it)

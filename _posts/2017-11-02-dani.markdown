@@ -11,6 +11,7 @@ category: blog
 author: dani
 description: Dani's contributions to the project
 star: true
+project: 1
 ---
 
 ## Contributions Made
