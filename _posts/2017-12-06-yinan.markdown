@@ -1,0 +1,12 @@
+---
+title: "Yinan Xu"
+layout: post
+date: 2017-11-05 22:10
+tag: android
+headerImage: false
+description: "Yinan talks about her role in the project"
+category: blog
+author: yinan
+star: true
+project: 2
+---

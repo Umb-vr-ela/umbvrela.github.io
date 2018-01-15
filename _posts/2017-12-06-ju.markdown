@@ -1,0 +1,22 @@
+---
+title: "Ju Zhang"
+layout: post
+date: 2017-11-05 22:10
+tag: android
+headerImage: false
+description: "Ju talks about her role in the project"
+category: blog
+author: ju
+star: true
+project: 2
+---
+
+## UX
+- Initial Prototypes on paper, setting game goals.
+
+## Unity 3d
+- Initial Networking Setup with Unity Network Manager
+- First person's perspective
+- Shooting bullets visuals, marking bullet collisions with zombies
+- Background and gameplay audio.
+- Game Canvas for Health, Bullets and Reset Time.
