@@ -10,3 +10,11 @@ author: yinan
 star: true
 project: 2
 ---
+
+## Android UI joysticks
+- Make the functionality of mobile interface control, the two joysticks in Unity.
+
+## Game functionalities
+- Zombie died functionality.
+- Some animations setting.
+- Model assets and setting.
