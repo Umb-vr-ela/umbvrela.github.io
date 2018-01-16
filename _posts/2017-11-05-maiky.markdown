@@ -1,10 +1,10 @@
 ---
-title: "Mai-Khanh"
+title: "Lê Mai-Khanh"
 layout: post
 date: 2017-11-05 22:10
 tag: modelling
 headerImage: false
-description: "Mai-Khanh talks about her role in the project"
+description: "Lê Mai-Khanh talks about her role in the project"
 category: blog
 author: maiky
 star: true
